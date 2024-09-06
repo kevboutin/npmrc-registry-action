@@ -1,12 +1,12 @@
 {
-    "name": "@kevboutin/npmrc-registry-login-action",
+    "name": "@kevboutin/npmrc-registry-action",
     "version": "1.0.10",
     "description": "A GitHub Action for adding registry credentials to a .npmrc file.",
     "main": "index.js",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/kevboutin/npmrc-registry-login-action.git"
+        "url": "git+https://github.com/kevboutin/npmrc-registry-action.git"
     },
     "keywords": [
         "action",
@@ -17,9 +17,9 @@
     "author": "Kevin Boutin <kevboutin@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/kevboutin/npmrc-registry-login-action/issues"
+        "url": "https://github.com/kevboutin/npmrc-registry-action/issues"
     },
-    "homepage": "https://github.com/kevboutin/npmrc-registry-login-action#readme",
+    "homepage": "https://github.com/kevboutin/npmrc-registry-action#readme",
     "dependencies": {
         "@actions/core": "^1.10.1"
     }

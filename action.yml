@@ -1,25 +1,25 @@
-name: '.npmrc registry login'
+name: ".npmrc registry login"
 
-description: 'Logs into NPM registries by managing a .npmrc file'
+description: "Logs into NPM registries by managing a .npmrc file"
 
 branding:
-  color: 'red'
-  icon: 'file-plus'
+    color: "red"
+    icon: "file-plus"
 
 inputs:
-  scope:
-    description: 'The registry scope (e.g. @acmeorg)'
-    required: true
-  registry:
-    description: 'The registry domain (e.g. https://npm.pkg.github.com)'
-    required: true
-  auth-token:
-    description: 'The registry auth token'
-    required: true
-  path:
-    description: 'The directory to manage the .npmrc file in (defaults to the currnet directory)'
-    required: false
+    scope:
+        description: "The registry scope (e.g. @acmeorg)"
+        required: true
+    registry:
+        description: "The registry domain (e.g. https://npm.pkg.github.com)"
+        required: true
+    auth-token:
+        description: "The registry auth token"
+        required: true
+    path:
+        description: "The directory to manage the .npmrc file in (defaults to the current directory)"
+        required: false
 
 runs:
-  using: 'node20'
-  main: 'dist/index.js'
+    using: "node20"
+    main: "dist/index.js"
