@@ -1,4 +1,4 @@
-name: ".npmrc registry login"
+name: ".npmrc registry login action"
 
 description: "Logs into NPM registries by managing a .npmrc file"
 
