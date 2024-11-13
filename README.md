@@ -27,7 +27,7 @@ You have the ability to login to multiple registries by using this action multip
 ## Examples
 
 ```yml
-uses: healthplace/npmrc-registry-login-action@v1.0
+uses: kevboutin/npmrc-registry-action@v1.0
 with:
   scope: '@acmeorg'
   registry: 'https://npm.pkg.github.com'
@@ -37,7 +37,7 @@ with:
 You can also use with `path` to run in another directory:
 
 ```yml
-uses: healthplace/npmrc-registry-login-action@v1.0
+uses: kevboutin/npmrc-registry-action@v1.0
 with:
   scope: '@acmeorg'
   registry: 'https://npm.pkg.github.com'

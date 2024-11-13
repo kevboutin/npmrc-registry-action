@@ -1,6 +1,6 @@
 {
     "name": "@kevboutin/npmrc-registry-action",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "A GitHub Action for adding registry credentials to a .npmrc file.",
     "main": "index.js",
     "scripts": {},
